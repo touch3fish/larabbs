@@ -1,0 +1,78 @@
+Searching 23446 files for "'/home'"
+
+/Users/ljx/Code/larabbs/app/Http/Controllers/Auth/LoginController.php:
+   26       * @var string
+   27       */
+   28:     protected $redirectTo = '/';
+   29
+   30      /**
+
+/Users/ljx/Code/larabbs/app/Http/Controllers/Auth/RegisterController.php:
+   29       * @var string
+   30       */
+   31:     protected $redirectTo = '/';
+   32
+   33      /**
+
+/Users/ljx/Code/larabbs/app/Http/Controllers/Auth/ResetPasswordController.php:
+   26       * @var string
+   27       */
+   28:     protected $redirectTo = '/';
+   29
+   30      /**
+
+/Users/ljx/Code/larabbs/app/Http/Controllers/Auth/VerificationController.php:
+   26       * @var string
+   27       */
+   28:     protected $redirectTo = '/';
+   29
+   30      /**
+
+/Users/ljx/Code/larabbs/app/Http/Middleware/RedirectIfAuthenticated.php:
+   19      {
+   20          if (Auth::guard($guard)->check()) {
+   21:             return redirect('/');
+   22          }
+   23
+
+/Users/ljx/Code/larabbs/node_modules/path-dirname/readme.md:
+   18
+   19  pathDirname('/home/foo');
+   20: //=> '/home'
+   21  pathDirname('C:\\Users\\foo');
+   22  //=> 'C:\\Users'
+
+/Users/ljx/Code/larabbs/storage/framework/views/1cb16727276d86f09d21bc005ef8411eb1426d91.php:
+   69                  <div class="top-right links">
+   70                      <?php if(auth()->guard()->check()): ?>
+   71:                         <a href="<?php echo e(url('/home')); ?>">Home</a>
+   72                      <?php else: ?>
+   73                          <a href="<?php echo e(route('login')); ?>">Login</a>
+
+/Users/ljx/Code/larabbs/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/routes.stub:
+    2  Auth::routes();
+    3
+    4: Route::get('/home', 'HomeController@index')->name('home');
+    5
+
+/Users/ljx/Code/larabbs/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php:
+   16          }
+   17
+   18:         return property_exists($this, 'redirectTo') ? $this->redirectTo : '/home';
+   19      }
+   20  }
+
+/Users/ljx/Code/larabbs/vendor/symfony/http-foundation/Tests/RequestTest.php:
+ 1711                  ],
+ 1712                  '/foo%20bar',
+ 1713:                 '/home',
+ 1714              ],
+ 1715              [
+ ....
+ 1721                  ],
+ 1722                  '/foo%20bar/app.php',
+ 1723:                 '/home',
+ 1724              ],
+ 1725              [
+
+11 matches across 10 files
