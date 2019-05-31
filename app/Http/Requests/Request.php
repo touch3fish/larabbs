@@ -12,3 +12,4 @@ class Request extends FormRequest
         return true;
     }
 }
+
