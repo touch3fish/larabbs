@@ -11130,6 +11130,17 @@ a.text-dark:focus {
   line-height: 38px;
 }
 
+/* 回复列表 */
+
+.topic-reply a {
+  color: inherit;
+}
+
+.topic-reply .meta {
+  font-size: 0.9em;
+  color: #b3b3b3;
+}
+
 /* Topic Index Page */
 
 .topics-index-page .topic-list .nav > li > a,
